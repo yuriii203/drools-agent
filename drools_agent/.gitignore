@@ -1,0 +1,17 @@
+# API Keys - 绝对不上传
+.env
+
+# Streamlit secrets (本地用，线上在 Streamlit Cloud 面板配置)
+../.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.qoder/
+
+# OS
+Thumbs.db
+.DS_Store

@@ -1,0 +1,56 @@
+# Secrets
+.streamlit/secrets.toml
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+.agents/
+
+# Qoder (repowiki is local-only, only SKILL.md + reference.md are needed)
+.qoder/repowiki/
+.qoder/skills/strategy-flow-html/
+.qoder/skills/drools-strategy/change_log.md
+
+# Generated output (keep dir, ignore files)
+generated/*
+!generated/.gitkeep
+
+# Personal / Work files (not part of the agent app)
+occupation/
+sql脚本/
+上游函数与类/
+策略代码/
+策略流程图/
+
+# Misc notes & reports
+*.md
+!README.md
+!.qoder/skills/drools-strategy/SKILL.md
+!.qoder/skills/drools-strategy/reference.md
+*.png
+*.xlsx
+*.csv
+*.html
+*.pdf
+*.jpg
+*.docx
+*.tex
+
+# drools_agent demo files
+drools_agent/demo_report.*
+
+# 上传分析时的临时副本（app.py 写入系统 temp，此处双保险）
+drools_agent/_tmp_*
+
+# app.py 运行时存放用户上传的参考文件（运行时产物，不入库）
+drools_agent/_ref_uploads/
+
+# OS
+Thumbs.db
+.DS_Store

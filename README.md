@@ -32,7 +32,7 @@
 │              (drools_agent/tools.py)                      │
 │                                                           │
 │  read_skill    read_reference   run_checker              │
-│  save_strategy read_generated_file                       │
+│  save_strategy read_generated_file  analyze_existing     │
 ├─────────────────────────────────────────────────────────┤
 │              Parser + Checker Pipeline                    │
 │   parser.py ──→ RuleMetadata ──→ checker.py ──→ Issues   │
@@ -86,7 +86,7 @@ cross_validate 对比「源码 + parser 结果」，除自然语言 findings 外
 │   ├── app.py              # Streamlit Web UI 入口
 │   ├── agent.py            # Conversation Agent 循环
 │   ├── llm.py              # DeepSeek API 封装（httpx）
-│   ├── tools.py            # 5 个 Agent 工具实现
+│   ├── tools.py            # 6 个 Agent 工具实现
 │   ├── parser.py           # Drools .java/.drl 规则解析器
 │   ├── checker.py          # 规则校验器（11 类检查项）
 │   ├── report.py           # 分析报告生成（Markdown + JSON）

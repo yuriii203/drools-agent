@@ -5,6 +5,15 @@
 > **脱敏说明**：本仓库为脱敏演示项目，技能文档（`.qoder/skills/drools-strategy/`）与代码中的平台名、灰度桶名、批次号、字段名等均已替换为占位符，不代表任何真实生产环境配置。若要在自己的业务中使用本 Agent：将 SKILL.md / reference.md 替换为你自己业务的函数签名、分流泳道与字段约定即可（文档结构可照搬），整套“生成 → 校验 → 流程图 → 交叉校验”工作流即可复用。
 
 > **在线体验**: https://drools-agent-6gnjqj54sbm9fzvedxhmjb.streamlit.app
+>
+> （免费档闲置一段时间后会自动休眠；若打开看到 "Zzzz" 页面，点蓝色唤醒按钮约 1 分钟恢复。）
+
+## 演示视频
+
+<!-- 视频位：录完后将本注释替换为 ![](assets/demo.gif) 或 MP4 链接 -->
+🎬 演示视频录制中；在此之前可先[在线体验](https://drools-agent-6gnjqj54sbm9fzvedxhmjb.streamlit.app)，或跑下面的可复现示例。
+
+> **可复现示例**：[examples/video_demo.java](examples/video_demo.java) —— 单泳道三轮（进件延迟轮 → T+1 10:00 短信+券 → T+2 10:00 WABA）+ 一级灰度 9:1。下载后在在线体验上传，或本地 `python drools_agent/main.py examples/video_demo.java --with-flow`，即可复现演示视频中的报告与 HTML 流程图。
 
 ## 功能概览
 

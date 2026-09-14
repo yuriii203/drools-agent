@@ -235,7 +235,7 @@ def render_generate():
         with st.form("new_conv_form"):
             requirement = st.text_area(
                 "描述你的策略需求",
-                placeholder="例如：帮我写一个3轮SMS提醒策略，categoryCode 是 NewUser_SMS_Reminder，模板 TEMPLATE_001",
+                placeholder="例如：帮我写一个3轮SMS提醒策略，categoryCode 是 Demo_SMS_Reminder，模板 TEMPLATE_001",
                 height=100,
             )
             ref_file = st.file_uploader(

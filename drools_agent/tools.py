@@ -316,7 +316,7 @@ TOOL_SCHEMAS: list[dict] = [
                 "properties": {
                     "filename": {
                         "type": "string",
-                        "description": "文件名（如 NewUser_SMS_Reminder.java）",
+                        "description": "文件名（如 Demo_SMS_Reminder.java）",
                     },
                 },
                 "required": ["filename"],

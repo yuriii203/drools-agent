@@ -10,8 +10,9 @@
 
 ## 演示视频
 
-<!-- 视频位：录完后将本注释替换为 ![](assets/demo.gif) 或 MP4 链接 -->
-🎬 演示视频录制中；在此之前可先[在线体验](https://drools-agent-6gnjqj54sbm9fzvedxhmjb.streamlit.app)，或跑下面的可复现示例。
+![演示视频](examples/demo.gif)
+
+> 🎥 上方 GIF 为关键片段节选；完整录屏（生成模式追问→生成→校验全绿，分析模式报告→HTML 流程图）见 [examples/demo.mp4](examples/demo.mp4)（点开即 GitHub 内置播放器）。
 
 > **可复现示例**：[examples/video_demo.java](examples/video_demo.java) —— 单泳道三轮（进件延迟轮 → T+1 10:00 短信+券 → T+2 10:00 WABA）+ 一级灰度 9:1。下载后在在线体验上传，或本地 `python drools_agent/main.py examples/video_demo.java --with-flow`，即可复现演示视频中的报告与 HTML 流程图。
 
